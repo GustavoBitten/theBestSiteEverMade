@@ -1,0 +1,205 @@
+ul{
+    color: #008f13;
+    
+
+}
+
+.titulo{
+    color:red;
+
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       
+     
+}
+
+/* Isso seleciona os filhos*/
+#header *{
+    display: inline-block;
+    
+
+}
+
+#header h1{
+    font-size: 16px;
+}
+
+#header img{
+    width: 70px;
+}
+
+#header {
+    border-bottom: black 1px solid;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+    
+}
+
+#header ul{
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+
+}
+
+#header ul *{
+    width: 120px;
+    text-align: center;
+}
+
+#banner{
+    text-align: center;
+    height: 500px;
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: bold;
+
+}
+
+#banner h2{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+#banner p{
+    padding-top: 240px;
+}
+
+#banner button{
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 50px;
+}
+
+#banner button:hover, .box button:hover{
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #5f4a90;
+    color: blanchedalmond;
+    padding: 6px 0px 6px 0px;
+    text-align: center;
+}
+
+.box{
+    width: 327px;
+    height: 300px;
+    background-color:red;
+    float: left;
+    margin: 8px;
+    
+    background-size: cover;
+}
+
+.box button{
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#section{
+    overflow: hidden;
+    text-align: center;
+    margin: 2px 158px;
+   
+}
+
+#box1{
+    background-image: url("../img/product-1.jpg");
+}
+
+#box2{
+    background-image: url("../img/product-2.jpg");
+}
+
+#box3{
+    background-image: url("../img/product-3.jpg");
+}
+
+#box4{
+    background-image: url("../img/product-4.jpg");
+}
+
+#box5{
+    background-image: url("../img/product-5.jpg");
+}
+
+#box6{
+    background-image: url("../img/product-6.jpg");
+}
+
+#form{
+    border: solid 1px ;
+    width: 32%;
+    margin: 150px auto;
+    height: 50%;
+    padding:  5px 40px;
+    border: solid purple 1px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+#form h1{
+    text-align: center;
+
+
+}
+#form *{
+    display: block;
+    text-align: ;
+}
+#form input, #form textarea{
+    width: 100%;
+    margin: 1px auto ;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    border: solid purple 1px;
+    height: 25px;
+}
+
+#form .dados{
+    display: inline;
+    width: auto;
+    
+}
+
+#form textarea{
+    height: 120px;
+}
+
+#form button{
+    background-color: purple;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+
+
+
+}
+
+#body{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 0 0 0;
+    height: 800px;
